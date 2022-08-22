@@ -5,6 +5,8 @@ let respuesta=prompt("Tiene dientes y no come, tiene cabeza y no es hombre :ingr
 if(respuesta=="AJO"|| respuesta=="ajo"|| respuesta=="Ajo"){
 continuar=false;
 
+ }else{
+    console.log("palabra incorrecta")
  }
 }while(continuar);
 
